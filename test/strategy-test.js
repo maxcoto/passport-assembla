@@ -17,7 +17,7 @@ vows.describe('AssemblaStrategy').addBatch({
     
     'should be named assembla': function (strategy) {
       assert.equal(strategy.name, 'assembla');
-    },
+    }
   },
   
   'strategy when loading user profile from api': {
@@ -68,8 +68,8 @@ vows.describe('AssemblaStrategy').addBatch({
       },
       'should set json property' : function(err, profile) {
         assert.isObject(profile._json);
-      },
-    },
+      }
+    }
   },
 
   'strategy when loading user profile and encountering an error': {
@@ -108,8 +108,8 @@ vows.describe('AssemblaStrategy').addBatch({
       },
       'should not load profile' : function(err, profile) {
         assert.isUndefined(profile);
-      },
-    },
-  },
+      }
+    }
+  }
   
 }).export(module);

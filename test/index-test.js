@@ -9,7 +9,7 @@ vows.describe('passport-assembla').addBatch({
   'module': {
     'should report a version': function (x) {
       assert.isString(assembla.version);
-    },
-  },
+    }
+  }
   
 }).export(module);
