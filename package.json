@@ -2,7 +2,14 @@
   "name": "passport-assembla",
   "version": "0.1.0",
   "description": "Assembla authentication strategy for Passport.",
-  "keywords": ["passport", "assembla", "auth", "authn", "authentication", "identity"],
+  "keywords": [
+    "passport",
+    "assembla",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/maxiperezc/passport-assembla.git"
@@ -15,14 +22,17 @@
     "email": "maxiperezc@gmail.com",
     "url": "http://www.maxiperezcoto.com.ar/"
   },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
-  } ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "./lib/passport-assembla",
   "dependencies": {
     "pkginfo": "0.2.x",
-    "passport-oauth": "0.1.x"
+    "passport-oauth": "0.1.x",
+    "vows": "~0.7.0"
   },
   "devDependencies": {
     "vows": "0.6.x"
@@ -30,5 +40,7 @@
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
   },
-  "engines": { "node": ">= 0.4.0" }
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
