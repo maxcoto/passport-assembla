@@ -68,6 +68,7 @@ For a complete, working example, refer to the [login example](https://github.com
 
 ## Credits
 
+  - [André Mendonça](https://github.com/andremendonca)
   - [Maximiliano Perez Coto](http://github.com/maxiperezc)
 
 ## Thanks
@@ -78,4 +79,6 @@ For a complete, working example, refer to the [login example](https://github.com
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2013 Maximiliano Perez Coto <[http://maxiperezcoto.com.ar/](http://maxiperezcoto.com.ar/)>
+Copyright (c) 2013 
+André Mendonça <[Linked In](http://www.linkedin.com/in/andrelmb)>
+Maximiliano Perez Coto <[About Me](http://about.me/maxiperezc)>
