@@ -27,7 +27,7 @@ passport.deserializeUser(function(obj, done) {
 //   Strategies in Passport require a `verify` function, which accept
 //   credentials (in this case, an accessToken, refreshToken, and Assembla
 //   profile), and invoke a callback with a user object.
-passport.use(new Assemblatrategy({
+passport.use(new AssemblaStrategy({
     clientID: ASSEMBLA_CLIENT_ID,
     clientSecret: ASSEMBLA_CLIENT_SECRET,
     callbackURL: "http://127.0.0.1:3000/auth/assembla/callback"
