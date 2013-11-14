@@ -3,8 +3,8 @@ var express = require('express')
   , util = require('util')
   , AssemblaStrategy = require('passport-assembla').Strategy;
 
-var ASSEMBLA_CLIENT_ID = "dp1oyQhVyr47bdacwqjQXA"
-var ASSEMBLA_CLIENT_SECRET = "8c8825504d7fa2e29a686ab03551099e";
+var ASSEMBLA_CLIENT_ID = "b34KwOnPWr46hcacwqjQWU";
+var ASSEMBLA_CLIENT_SECRET = "d438df68d97666ea31b5365e63d00f52";
 
 
 // Passport session setup.
